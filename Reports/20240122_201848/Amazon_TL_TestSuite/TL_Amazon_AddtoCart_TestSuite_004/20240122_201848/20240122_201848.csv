@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_AddtoCart_TestSuite_004,Chrome 120.0.0.0,,,22-01-2024 20:18:57,22-01-2024 20:23:18,4m - 20.378s,PASSED
+,,,,,,,
+Test Cases/Amazon_TestListeners/TL_TC_Amazon_Validate_AddtoCart_004,Chrome 120.0.0.0,,,22-01-2024 20:20:07,22-01-2024 20:23:18,3m - 10.524s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 20:20:07,22-01-2024 20:20:13,5.582s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 20:20:13,22-01-2024 20:20:45,32.067s,ERROR
+"selectOptionByValue(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,22-01-2024 20:20:45,22-01-2024 20:20:47,2.045s,PASSED
+"setText(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 120.0.0.0,,,22-01-2024 20:20:47,22-01-2024 20:20:49,2.061s,PASSED
+"click(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,22-01-2024 20:20:49,22-01-2024 20:21:13,23.734s,PASSED
+"click(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com  Da vinci code/span_The Da Vinci Code (Robert Langdon)""))",Chrome 120.0.0.0,,,22-01-2024 20:21:13,22-01-2024 20:21:50,37.343s,PASSED
+"click(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com Shopping Cart/a_Go to Cart""))",Chrome 120.0.0.0,,,22-01-2024 20:21:50,22-01-2024 20:22:33,42.572s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,22-01-2024 20:22:33,22-01-2024 20:22:42,9.535s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,22-01-2024 20:22:42,22-01-2024 20:23:17,35.450s,ERROR

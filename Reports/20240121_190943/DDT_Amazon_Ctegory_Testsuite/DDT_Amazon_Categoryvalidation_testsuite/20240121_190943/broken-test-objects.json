@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Category_validation_excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement",
+      "brokenLocator": "//select[@id\u003d\u0027searchDropdownBox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#searchDropdownBox",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240121_190943/DDT_Amazon_Ctegory_Testsuite/DDT_Amazon_Categoryvalidation_testsuite/20240121_190943/Object Repository/Amazon_Category_validation_excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement_CSS.png"
+    }
+  ]
+}

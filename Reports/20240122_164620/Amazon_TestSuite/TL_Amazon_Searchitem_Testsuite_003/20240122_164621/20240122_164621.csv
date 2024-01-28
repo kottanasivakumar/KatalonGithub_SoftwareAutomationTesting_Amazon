@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_Searchitem_Testsuite_003,Chrome 120.0.0.0,,,22-01-2024 16:46:27,22-01-2024 16:47:25,58.391s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validation_Search item-003,Chrome 120.0.0.0,,,22-01-2024 16:46:44,22-01-2024 16:47:25,41.347s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 16:46:44,22-01-2024 16:46:49,4.654s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,22-01-2024 16:46:49,22-01-2024 16:46:50,1.007s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,22-01-2024 16:46:50,22-01-2024 16:46:52,1.592s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon.com/input_field-keywords""), ""FHPTTU"")",Chrome 120.0.0.0,,,22-01-2024 16:46:52,22-01-2024 16:46:52,0.615s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,22-01-2024 16:46:52,22-01-2024 16:46:53,0.558s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,22-01-2024 16:46:53,22-01-2024 16:47:05,12.715s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon Sign-In/input_email""), ""sivakumarkottana2000@gmail.com"")",Chrome 120.0.0.0,,,22-01-2024 16:47:05,22-01-2024 16:47:07,1.731s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,22-01-2024 16:47:07,22-01-2024 16:47:09,1.772s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon Sign-In/input_password""), ""DTj8m5Ry/xZVxpyMM/dUZQ=="")",Chrome 120.0.0.0,,,22-01-2024 16:47:09,22-01-2024 16:47:10,0.771s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,22-01-2024 16:47:10,22-01-2024 16:47:10,0.544s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,22-01-2024 16:47:10,22-01-2024 16:47:20,9.671s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""da vinci code"")",Chrome 120.0.0.0,,,22-01-2024 16:47:20,22-01-2024 16:47:21,0.798s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,22-01-2024 16:47:21,22-01-2024 16:47:25,4.520s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,22-01-2024 16:47:25,22-01-2024 16:47:25,0.235s,PASSED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_AddtoCart_TestSuite_004,Chrome 120.0.0.0,,,22-01-2024 22:15:36,22-01-2024 22:17:50,2m - 13.406s,PASSED
+,,,,,,,
+Test Cases/Amazon_TestListeners/TL_TC_Amazon_Validate_AddtoCart_004,Chrome 120.0.0.0,,,22-01-2024 22:15:59,22-01-2024 22:17:50,1m - 50.898s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 22:15:59,22-01-2024 22:16:03,4.221s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 22:16:03,22-01-2024 22:16:03,0.029s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 22:16:03,22-01-2024 22:16:35,32.041s,ERROR
+"selectOptionByValue(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,22-01-2024 22:16:35,22-01-2024 22:16:37,1.840s,PASSED
+"setText(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 120.0.0.0,,,22-01-2024 22:16:37,22-01-2024 22:16:39,1.588s,PASSED
+"click(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,22-01-2024 22:16:39,22-01-2024 22:16:44,5.652s,PASSED
+"click(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com  Da vinci code/span_The Da Vinci Code (Robert Langdon)""))",Chrome 120.0.0.0,,,22-01-2024 22:16:44,22-01-2024 22:16:51,6.550s,PASSED
+"click(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com Shopping Cart/a_Go to Cart""))",Chrome 120.0.0.0,,,22-01-2024 22:16:51,22-01-2024 22:17:28,36.938s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,22-01-2024 22:17:28,22-01-2024 22:17:36,8.160s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,22-01-2024 22:17:36,22-01-2024 22:17:41,5.017s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,22-01-2024 22:17:41,22-01-2024 22:17:50,8.720s,PASSED

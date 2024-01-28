@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Searchitem_Wishlist_Testsuite_002,Chrome 120.0.0.0,,,20-01-2024 19:06:09,20-01-2024 19:07:50,1m - 40.261s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Aamzon_Validate_Wishlist item-005,Chrome 120.0.0.0,,,20-01-2024 19:06:10,20-01-2024 19:07:21,1m - 11.211s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,20-01-2024 19:06:10,20-01-2024 19:06:12,2.412s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,20-01-2024 19:06:12,20-01-2024 19:06:14,1.558s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_Amazon.com/input_field-keywords""), ""LACNMU"")",Chrome 120.0.0.0,,,20-01-2024 19:06:14,20-01-2024 19:06:15,1.040s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,20-01-2024 19:06:15,20-01-2024 19:06:16,0.725s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,20-01-2024 19:06:16,20-01-2024 19:06:43,27.571s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 120.0.0.0,,,20-01-2024 19:06:43,20-01-2024 19:06:45,1.415s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,20-01-2024 19:06:45,20-01-2024 19:06:50,5.391s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_Amazon.com  Da vinci code/span_The Da Vinci Code (Robert Langdon)""))",Chrome 120.0.0.0,,,20-01-2024 19:06:50,20-01-2024 19:06:58,8.243s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_Add to List""))",Chrome 120.0.0.0,,,20-01-2024 19:06:58,20-01-2024 19:07:02,3.807s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_Amazon Sign-In/input_email""), ""sivakumarkottana2000@gmail.com"")",Chrome 120.0.0.0,,,20-01-2024 19:07:02,20-01-2024 19:07:04,1.558s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,20-01-2024 19:07:04,20-01-2024 19:07:06,1.809s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_Amazon Sign-In/input_password""), ""DTj8m5Ry/xZVxpyMM/dUZQ=="")",Chrome 120.0.0.0,,,20-01-2024 19:07:06,20-01-2024 19:07:07,1.201s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,20-01-2024 19:07:07,20-01-2024 19:07:07,0.671s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/input_submit.add-to-registry.wishlist""))",Chrome 120.0.0.0,,,20-01-2024 19:07:07,20-01-2024 19:07:18,10.996s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Add to Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/i_a-icon a-icon-close""))",Chrome 120.0.0.0,,,20-01-2024 19:07:18,20-01-2024 19:07:20,2.070s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,20-01-2024 19:07:20,20-01-2024 19:07:21,0.332s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validation_Search item-003,Chrome 120.0.0.0,,,20-01-2024 19:07:21,20-01-2024 19:07:50,28.769s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,20-01-2024 19:07:21,20-01-2024 19:07:22,0.868s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,20-01-2024 19:07:22,20-01-2024 19:07:24,1.850s,PASSED
+"setText(findTestObject(""Object Repository/Amzon_Pages_search item_OR/Page_Amazon.com/input_field-keywords""), ""BPJJTG"")",Chrome 120.0.0.0,,,20-01-2024 19:07:24,20-01-2024 19:07:25,1.123s,PASSED
+"click(findTestObject(""Object Repository/Amzon_Pages_search item_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,20-01-2024 19:07:25,20-01-2024 19:07:26,0.815s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amzon_Pages_search item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,20-01-2024 19:07:26,20-01-2024 19:07:41,15.699s,PASSED
+"setText(findTestObject(""Object Repository/Amzon_Pages_search item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 120.0.0.0,,,20-01-2024 19:07:41,20-01-2024 19:07:42,0.927s,PASSED
+"click(findTestObject(""Object Repository/Amzon_Pages_search item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,20-01-2024 19:07:42,20-01-2024 19:07:49,7.082s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,20-01-2024 19:07:49,20-01-2024 19:07:50,0.239s,PASSED

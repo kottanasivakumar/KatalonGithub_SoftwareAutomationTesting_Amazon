@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_Searchitem_Testsuite_003,Chrome 120.0.0.0,,,22-01-2024 16:22:14,22-01-2024 16:22:50,35.998s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validation_Search item-003,Chrome 120.0.0.0,,,22-01-2024 16:22:31,22-01-2024 16:22:50,19.177s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 16:22:31,22-01-2024 16:22:35,3.951s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,22-01-2024 16:22:35,22-01-2024 16:22:43,8.031s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""da vinci code"")",Chrome 120.0.0.0,,,22-01-2024 16:22:43,22-01-2024 16:22:44,1.414s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,22-01-2024 16:22:44,22-01-2024 16:22:50,5.626s,PASSED

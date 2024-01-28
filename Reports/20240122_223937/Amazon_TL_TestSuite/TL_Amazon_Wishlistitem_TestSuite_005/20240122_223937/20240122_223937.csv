@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_Wishlistitem_TestSuite_005,Chrome 120.0.0.0,,,22-01-2024 22:39:45,22-01-2024 22:43:26,3m - 41.046s,PASSED
+,,,,,,,
+Test Cases/Amazon_TestListeners/TL_TC_Aamzon_Validate_AddtoWishlist-005,Chrome 120.0.0.0,,,22-01-2024 22:40:08,22-01-2024 22:43:26,3m - 17.976s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 22:40:08,22-01-2024 22:40:12,3.968s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 22:40:12,22-01-2024 22:40:45,33.111s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 22:40:45,22-01-2024 22:41:17,31.815s,ERROR
+"selectOptionByValue(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoWishlist_005/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,22-01-2024 22:41:17,22-01-2024 22:41:18,1.242s,PASSED
+"setText(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoWishlist_005/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""da vinci code"")",Chrome 120.0.0.0,,,22-01-2024 22:41:18,22-01-2024 22:41:20,1.624s,PASSED
+"click(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoWishlist_005/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,22-01-2024 22:41:20,22-01-2024 22:41:27,6.687s,PASSED
+"click(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoWishlist_005/Page_Amazon.com  da vinci code/span_The Da Vinci Code (Robert Langdon)""))",Chrome 120.0.0.0,,,22-01-2024 22:41:27,22-01-2024 22:41:34,7.427s,PASSED
+"click(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoWishlist_005/Page_The Da Vinci Code (Robert Langdon) Bro_73b7c5/input_submit.add-to-registry.wishlist""))",Chrome 120.0.0.0,,,22-01-2024 22:41:34,22-01-2024 22:41:38,3.570s,PASSED
+"click(findTestObject(""Object Repository/TestListeners_OR/TL_TC_Validate_AddtoWishlist_005/Page_The Da Vinci Code (Robert Langdon) Bro_73b7c5/button_a-button-close a-declarative""))",Chrome 120.0.0.0,,,22-01-2024 22:41:38,22-01-2024 22:42:09,31.789s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,22-01-2024 22:42:09,22-01-2024 22:42:16,7.145s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,22-01-2024 22:42:16,22-01-2024 22:42:51,34.797s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,22-01-2024 22:42:51,22-01-2024 22:43:26,34.686s,ERROR

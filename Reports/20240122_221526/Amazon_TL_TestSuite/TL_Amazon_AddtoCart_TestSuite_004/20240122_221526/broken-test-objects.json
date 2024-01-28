@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Search item_OR/Page_Amazon Sign-In/input_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240122_221526/Amazon_TL_TestSuite"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com Shopping Cart/a_Go to Cart",
+      "brokenLocator": "//span[@id\u003d\u0027sw-gtc\u0027]/span/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/span/span/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240122_221526/Amazon_TL_TestSuite/TL_Amazon_AddtoCart_TestSuite_004/20240122_221526/Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com Shopping Cart/a_Go to Cart_position.png"
+    }
+  ]
+}

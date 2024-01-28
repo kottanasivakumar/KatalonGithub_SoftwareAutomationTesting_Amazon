@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Login_Logout_TestSuite_001,Chrome 120.0.0.0,,,20-01-2024 19:30:01,20-01-2024 19:31:12,1m - 10.776s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validate_Login-001,Chrome 120.0.0.0,,,20-01-2024 19:30:02,20-01-2024 19:30:32,29.981s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,20-01-2024 19:30:02,20-01-2024 19:30:04,2.261s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,20-01-2024 19:30:04,20-01-2024 19:30:07,2.352s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_login_OR/Page_Amazon.com/input_field-keywords""), """")",Chrome 120.0.0.0,,,20-01-2024 19:30:07,20-01-2024 19:30:08,1.047s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_login_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,20-01-2024 19:30:08,20-01-2024 19:30:09,0.894s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,20-01-2024 19:30:09,20-01-2024 19:30:27,17.922s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_login_OR/Page_Amazon Sign-In/input_email""), ""sivakumarkottana2000@gmail.com"")",Chrome 120.0.0.0,,,20-01-2024 19:30:27,20-01-2024 19:30:28,0.928s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_login_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,20-01-2024 19:30:28,20-01-2024 19:30:29,1.833s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_login_OR/Page_Amazon Sign-In/input_password""), ""DTj8m5Ry/xZVxpyMM/dUZQ=="")",Chrome 120.0.0.0,,,20-01-2024 19:30:29,20-01-2024 19:30:31,1.570s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_login_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,20-01-2024 19:30:31,20-01-2024 19:30:31,0.496s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,20-01-2024 19:30:31,20-01-2024 19:30:32,0.291s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validation_Log out-002,Chrome 120.0.0.0,,,20-01-2024 19:30:32,20-01-2024 19:31:12,40.484s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,20-01-2024 19:30:32,20-01-2024 19:30:33,0.916s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,20-01-2024 19:30:33,20-01-2024 19:30:35,1.878s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_log out_OR/Page_Amazon.com/input_field-keywords""), ""EFRKNH"")",Chrome 120.0.0.0,,,20-01-2024 19:30:35,20-01-2024 19:30:36,1.133s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_log out_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,20-01-2024 19:30:36,20-01-2024 19:30:37,0.758s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_log out_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,20-01-2024 19:30:37,20-01-2024 19:30:54,17.558s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_log out_OR/Page_Amazon Sign-In/input_email""), ""sivakumarkottana2000@gmail.com"")",Chrome 120.0.0.0,,,20-01-2024 19:30:54,20-01-2024 19:30:55,1.283s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_log out_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,20-01-2024 19:30:55,20-01-2024 19:30:59,3.061s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_log out_OR/Page_Amazon Sign-In/input_password""), ""DTj8m5Ry/xZVxpyMM/dUZQ=="")",Chrome 120.0.0.0,,,20-01-2024 19:30:59,20-01-2024 19:30:59,0.602s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_log out_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,20-01-2024 19:30:59,20-01-2024 19:31:00,0.495s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_log out_OR/Page_Amazon.com. Spend less. Smile more/span_All""))",Chrome 120.0.0.0,,,20-01-2024 19:31:00,20-01-2024 19:31:07,7.787s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_log out_OR/Page_Amazon.com. Spend less. Smile more/a_Sign Out""))",Chrome 120.0.0.0,,,20-01-2024 19:31:07,20-01-2024 19:31:12,4.627s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,20-01-2024 19:31:12,20-01-2024 19:31:12,0.243s,PASSED

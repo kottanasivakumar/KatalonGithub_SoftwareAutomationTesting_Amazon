@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_AddtoCart_TestSuite_004,Chrome 120.0.0.0,,,22-01-2024 19:26:44,22-01-2024 19:28:44,2m - 0.165s,PASSED
+,,,,,,,
+Test Cases/Amazon_TestListeners/TL_TC_Amazon_Validate_AddtoCart-004,Chrome 120.0.0.0,,,22-01-2024 19:27:08,22-01-2024 19:28:44,1m - 35.972s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 19:27:09,22-01-2024 19:27:13,4.492s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,22-01-2024 19:27:13,22-01-2024 19:27:46,32.918s,ERROR
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=baby-products-intl-ship"", true)",Chrome 120.0.0.0,,,22-01-2024 19:27:46,22-01-2024 19:27:48,2.032s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""walkers"")",Chrome 120.0.0.0,,,22-01-2024 19:27:48,22-01-2024 19:27:50,2.470s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,22-01-2024 19:27:50,22-01-2024 19:27:58,7.614s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddtoCart_OR/Page_Amazon.com  walkers/button_Add to cart""))",Chrome 120.0.0.0,,,22-01-2024 19:27:58,22-01-2024 19:27:59,0.949s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,22-01-2024 19:27:59,22-01-2024 19:28:09,10.022s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,22-01-2024 19:28:09,22-01-2024 19:28:44,35.370s,ERROR

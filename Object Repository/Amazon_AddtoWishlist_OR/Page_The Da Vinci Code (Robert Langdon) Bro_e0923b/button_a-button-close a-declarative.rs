@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_a-button-close a-declarative</name>
+   <tag></tag>
+   <elementGuidId>b8156689-c03b-4cd4-a7bd-c62ed36f66d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a-popover-6']/div/header/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>063e8eca-aca4-4bb8-9957-d42999d3c9d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-action</name>
+      <type>Main</type>
+      <value>a-popover-close</value>
+      <webElementGuid>8105adae-bc98-447d-bcdb-dc9be5d53ccd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> a-button-close a-declarative</value>
+      <webElementGuid>496c986e-714f-47e1-9e71-db47ecf66c83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>0121e793-5172-41a7-8cb2-51e0610edb15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-popover-6&quot;)/div[@class=&quot;a-popover-wrapper&quot;]/header[@class=&quot;a-popover-header&quot;]/button[@class=&quot;a-button-close a-declarative&quot;]</value>
+      <webElementGuid>c9227ea0-b08b-404c-a3eb-50e5e3c076bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a-popover-6']/div/header/button</value>
+      <webElementGuid>8e3c826d-82f4-4782-b293-72537fa4580a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/button</value>
+      <webElementGuid>149c7102-ab8b-401a-b84f-36f98844be78</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
