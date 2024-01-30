@@ -8,7 +8,7 @@
       "proposedLocator": "//div/div/div/div/input",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
+      "pathToScreenshot": "Reports/20240130_094738/Amazon_TL_TestSuite"
     },
     {
       "approved": true,
@@ -18,17 +18,7 @@
       "proposedLocator": "//div/div/div/div/input",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/TestListeners_OR/TL_TC_Validate_Searchitem_003/Page_Your Account/a_All",
-      "brokenLocator": "//a[@id\u003d\u0027nav-hamburger-menu\u0027]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div/div[4]/div/a",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/TestListeners_OR/TL_TC_Validate_Searchitem_003/Page_Your Account/a_All_position.png"
+      "pathToScreenshot": "Reports/20240130_094738/Amazon_TL_TestSuite"
     }
   ]
 }

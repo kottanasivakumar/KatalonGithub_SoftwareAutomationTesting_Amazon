@@ -18,21 +18,17 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('')
-
 //WebUI.navigateToUrl('https://www.amazon.com/')
-
 //WebUI.click(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
-
 //WebUI.setText(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon Sign-In/input_email'), 'sivakumarkottana2000@gmail.com')
-
 //WebUI.click(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon Sign-In/inputcontinue'))
-
 //WebUI.setEncryptedText(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon Sign-In/input_password'), 'DTj8m5Ry/xZVxpyMM/dUZQ==')
-
 //WebUI.click(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon Sign-In/inputsignInSubmit'))
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
     'search-alias=stripbooks-intl-ship', true)
+
+CustomKeywords.'com.qa.test.CustomFunctions.CheckDropDownListElementExist'(findTestObject('TestListeners_OR/TL_TC_Validate_Searchitem_003/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
+    'Books')
 
 WebUI.setText(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
     'Da vinci code')
@@ -42,12 +38,4 @@ WebUI.click(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_Ad
 WebUI.click(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com  Da vinci code/span_The Da Vinci Code (Robert Langdon)'))
 
 WebUI.click(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com Shopping Cart/a_Go to Cart'))
-
-//WebUI.click(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Amazon.com Shopping Cart/span_Hello, KOTTANA'))
-
-//WebUI.click(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Your Account/a_All'))
-
-//WebUI.click(findTestObject('Object Repository/TestListeners_OR/TL_TC_Validate_AddtoCart_004/Page_Your Account/a_Sign Out'))
-
-//WebUI.closeBrowser()
 

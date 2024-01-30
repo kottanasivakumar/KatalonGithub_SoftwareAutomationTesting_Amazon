@@ -14,6 +14,13 @@
    <testCaseLink>
       <guid>72f8cf7b-b00b-477e-a5c4-9024f9893918</guid>
       <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Amazon_TestListeners/TL_TC_Amazon_Validate_Searchitem_003</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8a3560c9-6b5b-4275-b7e7-c8a1976444ff</guid>
+      <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Amazon_TestListeners/TL_TC_Amazon_Validate_Searchitem_003</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>

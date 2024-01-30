@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_SearchItem_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82f4f30c-1819-4367-8fea-a654f5307d4a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5fc4a322-eb1a-46ce-b8cb-b971fc989718</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Da vinci code'</defaultValue>
+      <description></description>
+      <id>5fc4a322-eb1a-46ce-b8cb-b971fc989718</id>
+      <masked>false</masked>
+      <name>searchitem</name>
+   </variable>
+</TestCaseEntity>
